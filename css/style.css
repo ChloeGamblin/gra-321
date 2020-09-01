@@ -1,5 +1,8 @@
 * {
-background-color: #92a8d1;
+background-color: #e3b65d;
+}
+a:hover {
+  color: green;
 }
 
 h1 {
