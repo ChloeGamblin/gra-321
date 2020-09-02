@@ -4,8 +4,8 @@ background-color: #e3b65d;
 a:hover {
   color: brown;
 }
-font {
-  font-family: 'Montserrat', sans-serif;
+.body{
+font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
