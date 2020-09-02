@@ -2,7 +2,10 @@
 background-color: #e3b65d;
 }
 a:hover {
-  color: green;
+  color: pink;
+}
+font {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
