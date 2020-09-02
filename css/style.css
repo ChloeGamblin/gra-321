@@ -1,5 +1,5 @@
 * {
-background-color: red;
+background-color: #DBBC63;
 }
 a:hover {
   color: brown;
@@ -7,7 +7,7 @@ a:hover {
 body {
 font-family: 'Alata', sans-serif;
 }
-pa {
+p {
   position:relative; left:100px;
 }
 h1 {
