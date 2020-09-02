@@ -1,13 +1,13 @@
 * {
-background-color: red;
+background-color: #DBBC63;
 }
 a:hover {
   color: brown;
 }
-.body{
+body {
 font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-font-family: 'Montserrat', sans-serif;
+
 }
