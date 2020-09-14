@@ -2,8 +2,12 @@
 background-color: #DBBC63;
 }
 
+body {
+  background-color: #DBBC63;
+}
 
-.button {
+
+button {
   background-color: #5E5333;
   color: white;
   padding: 15px 32px;
