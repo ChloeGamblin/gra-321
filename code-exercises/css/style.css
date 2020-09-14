@@ -6,8 +6,10 @@ body {
   background-color: #DBBC63;
 }
 
-a:hover {
-  color: red;
+button.checkout:hover
+{
+ background-color:green;
+}
 
 
 button {
