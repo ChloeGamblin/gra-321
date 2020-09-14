@@ -6,6 +6,9 @@ body {
   background-color: #DBBC63;
 }
 
+a:hover {
+  color: red;
+
 
 button {
   background-color: #5E5333;
