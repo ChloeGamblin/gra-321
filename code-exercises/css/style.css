@@ -3,7 +3,7 @@ background-color: #DBBC63;
 }
 
 body{
-    background:url(../img/pikachu.jpg);
+    background-image:code-exercises\img\pikachu.jpg;
 }
 
 button {
