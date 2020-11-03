@@ -1,7 +1,115 @@
-* {
-background-color: #92a8d1;
+.container {
+  display: inline-grid;
+}
+body {
+  background-color: #414141;
+  font-family: 'Roboto', sans-serif;
+  color: #6AA47F;
+  text-align: center;
+}
+div .slidershow {
+  width: 375px;
+  height: 212px;
+  overflow: hidden;
+  display: flex;
+}
+div .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+div .navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  transform: translateX(-50%);
+  display: flex;
+  transition: 0.4s;
+}
+.bar:hover {
+  background: #fff;
+}
+div .bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+}
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+div .slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+div .slide {
+  width: 100%;
+  transition: 0.6s;
+}
+div .slide img {
+  width: 100%;
+  height: 100%;
+}
+#r1:checked ~ .s1{
+  margin-left:0;
+}
+#r2:checked ~ .s1{
+  margin-left:-50%;
+}
+#r3:checked ~ .s1{
+  margin-left:-100%;
+}
+h1 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 39px;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Sansita Swashed', cursive;
+}
+div.menulinks {
+  font-size: 28px;
+}
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "sidebar"
+  "menu";
+}
+div.sidebar {
+  grid-area: sidebar;
+  background-color: #6AA47F;
+  color: #414141;
+  line-height: 50px;
+}
+.logo > img {
+  width: 155px;
+  height: 62px;
 }
 
-h1 {
+div.menu {
+  grid-area: menu;
+  font-size: 20px;
+  line-height: 35px;
+}
 
+div.contact {
+  order:1;
+  font-size: 28px;
+}
+div.menulinks {
+  order:2;
+  padding-right: 40%;
+  padding-left: 40%;
+  font-size: 28px;
 }
