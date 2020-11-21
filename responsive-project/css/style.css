@@ -5,106 +5,83 @@ body {
   background-color: #414141;
   font-family: 'Roboto', sans-serif;
   color: #6AA47F;
-  text-align: center;
 }
 .carousel {
-    position: relative;
-    margin-top: 0px;
+  position: relative;
+  margin-top: 0px;
 }
 
 .carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
   height:500px;
 }
 
 .carousel-open:checked + .carousel-item {
-    position: static;
-    opacity: 100;
+  position: static;
+  opacity: 100;
+  transition: 0.6s;
 }
 
 .image-1 {
-background-image: url("../img/iced.jpg");
+  background-image: url("../img/iced.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-2 {
-background-image: url("../img/latte.jpg");
+  background-image: url("../img/latte.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-3 {
-background-image: url("../img/tea.jpg");
+  background-image: url("../img/tea.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-4 {
-background-image: url("../img/panini.jpg");
+  background-image: url("../img/panini.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-5 {
-background-image: url("../img/muffin.jpg");
+  background-image: url("../img/muffin.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-6 {
-background-image: url("../img/waffle.jpg");
+  background-image: url("../img/waffle.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .carousel-item {
-    position: absolute;
-    opacity: 0;
+  position: absolute;
+  opacity: 0;
   height:500px;
 }
-
-
-
-.carousel-control {
-    background: rgba(0, 0, 0, 0.50);
-    border-radius: 50%;
-    color: #6AA47F;
-    cursor: pointer;
-    display: none;
-    font-size: 40px;
-    height: 40px;
-    line-height: 35px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    cursor: pointer;
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    text-align: center;
-    width: 40px;
-    z-index: 10;
-}
-
 .carousel-control.prev {
-    left: 2%;
+  left: 2%;
 }
 
 .carousel-control.next {
-    right: 2%;
+  right: 2%;
 }
 
 .carousel-control:hover {
-    background: rgba(0, 0, 0, 0.8);
-    color: #aaaaaa;
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
 }
 
 #carousel-1:checked ~ .control-1,
@@ -113,36 +90,36 @@ background-image: url("../img/waffle.jpg");
 #carousel-4:checked ~ .control-4,
 #carousel-5:checked ~ .control-5,
 #carousel-6:checked ~ .control-6
- {
-    display: block;
+{
+  display: block;
 }
 
 .carousel-indicators {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-bottom:2%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom:2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
 }
 
 .carousel-indicators li {
-    display: inline-block;
-    margin: 0 5px;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .carousel-bullet {
-    color: rgba(0, 0, 0, 0.50);
-    cursor: pointer;
-    display: block;
-    font-size: 50px;
-  }
+  color: rgba(0, 0, 0, 0.50);
+  cursor: pointer;
+  display: block;
+  font-size: 100px;
+}
 
 .carousel-bullet:hover {
-    color: #6AA47F;
+  color: #6AA47F;
 }
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -151,20 +128,20 @@ bottom:2%;
 #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #6AA47F;
+  color: #6AA47F;
 }
 
 #title {
-    width: 100%;
-    position: absolute;
-    padding: 0px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 27px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Open Sans', sans-serif;
-    z-index: 9999;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 h1 {
   font-family: 'Sansita Swashed', cursive;
@@ -180,9 +157,7 @@ h3 {
   font-family: 'Sansita Swashed', cursive;
 }
 div.menulinks {
-  font-size: 38px;
   margin-bottom: 26px;
-  justify-content: center;
 }
 .grid-container {
   display: inline-grid;
@@ -191,37 +166,55 @@ div.menulinks {
   grid-template-areas: "sidebar"
   "menu";
 }
+a {
+  color: #3f6cb5;
+}
 div.sidebar {
-  grid-area: sidebar;
+  grid-area: "sidebar";
   background-color: #6AA47F;
   color: #414141;
-  line-height: 50px;
-  font-size: 38px;
-  justify-content: center;
+  font-size: 10px;
+  padding-bottom: 34px;
+  text-align: center;
 }
+
 .logo > img {
-  width: 155px;
-  height: 62px;
+  width: 301px;
+  height: 121px;
+  margin-top: 34px;
 }
 
 div.menu {
-  grid-area: menu;
+  grid-area: "menu";
   font-size: 20px;
-  line-height: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+  text-align: center;
 }
 
 div.contact {
   order:1;
-  font-size: 28px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+div .contact a {
+  color: #414141;
 }
 div.menulinks {
   order:2;
-  font-size: 28px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+div.menulinks a {
+  color: #414141;
 }
 div.drinks {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
+  margin-bottom: -35px;
 }
 div.hotdrinks {
   display: flex;
@@ -231,9 +224,13 @@ div.hotdrinks {
 div.footer {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 div.colddrinks {
+  display: flex;
+  flex-direction: column;
+}
+div.drinkspecialstitle {
   display: flex;
   flex-direction: column;
 }
@@ -245,12 +242,10 @@ div.drinkspecials {
 div.sandwiches {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
 }
 div.desserts {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
 }
 div.locations {
   display: flex;
@@ -260,23 +255,325 @@ div.locations {
 div.food {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
+  margin-bottom: -35px;
 }
 div.sandys {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
 }
 div.dessys {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
 }
 div.local {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
 }
 div.green {
   color: #414141;
+}
+
+
+
+@media only screen and (min-width: 768px){
+  .container {
+    display: inline-grid;
+  }
+  body {
+    background-color: #414141;
+    font-family: 'Roboto', sans-serif;
+    color: #6AA47F;
+  }
+  .carousel {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+
+  }
+
+  .carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height:685px;
+  }
+
+  .carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+    transition: 0.6s;
+  }
+
+  .image-1 {
+    background-image: url("../img/iced.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-2 {
+    background-image: url("../img/latte.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-3 {
+    background-image: url("../img/tea.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-4 {
+    background-image: url("../img/panini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-5 {
+    background-image: url("../img/muffin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-6 {
+    background-image: url("../img/waffle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .carousel-item {
+    position: absolute;
+    opacity: 0;
+    height:685px;
+  }
+  .carousel-control.prev {
+    left: 2%;
+  }
+
+  .carousel-control.next {
+    right: 2%;
+  }
+
+  .carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+  }
+
+  #carousel-1:checked ~ .control-1,
+  #carousel-2:checked ~ .control-2,
+  #carousel-3:checked ~ .control-3,
+  #carousel-4:checked ~ .control-4,
+  #carousel-5:checked ~ .control-5,
+  #carousel-6:checked ~ .control-6
+  {
+    display: block;
+  }
+
+  .carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom:2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .carousel-bullet {
+    color: rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+    display: block;
+    font-size: 125px;
+  }
+
+  .carousel-bullet:hover {
+    color: #6AA47F;
+  }
+
+  #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+  #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+  #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
+  #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+  #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+  #carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #6AA47F;
+  }
+
+  #title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+  }
+  h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    color: #6AA47F;
+  }
+  h2 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 39px;
+  }
+  h3 {
+    font-size: 22px;
+    font-family: 'Sansita Swashed', cursive;
+  }
+  div.menulinks {
+    margin-bottom: 26px;
+  }
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: 17% 83%;
+    grid-template-rows: 100%;
+    grid-template-areas: "sidebar menu";
+    width: 100%;
+  }
+  a {
+    color: #3f6cb5;
+  }
+  div.sidebar {
+    grid-area: "sidebar";
+    background-color: #6AA47F;
+    color: #414141;
+    font-size: 35px;
+    padding-bottom: 500px;
+    padding-right: ;
+    padding-left: 12%;
+    text-align: left;
+  }
+
+  .logo > img {
+    width: 270px;
+    height: auto;
+    margin-top: 34px;
+    margin-left: -10px;
+  }
+
+  div.menu {
+    grid-area: "menu";
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    text-align: left;
+  }
+
+  div.contact {
+    order:1;
+    font-size: 35px;
+    line-height: 60px;
+  }
+
+  div .contact a {
+    color: #414141;
+  }
+  div.menulinks {
+    order:2;
+    font-size: 35px;
+    line-height: 60px;
+  }
+
+  div.menulinks a {
+    color: #414141;
+  }
+  div.drinks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -35px;
+    margin-left: 101px;
+  }
+  div.hotdrinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+    column-gap: 100px;
+    margin-bottom: -26px;
+    margin-left: 101px;
+
+  }
+  div.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 101px;
+    margin-top: 10px;
+  }
+  div.colddrinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 101px;
+    height: 500px;
+    column-gap: 100px;
+  }
+  div.drinkspecialstitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 101px;
+  }
+  div.drinkspecials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 26px;
+    margin-left: 101px;
+    height: 150px;
+    width: 400px;
+    column-gap: 100px;
+  }
+  div.hotdrinkstitle {
+    margin-left: 101px;
+  }
+  div.foodmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 620px;
+    width: 380px;
+    margin-left: 101px;
+    column-gap: 300px;
+  }
+  div.locations {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    margin-left: 101px;
+    flex-wrap: wrap;
+    height: 150px;
+    weight: 100px;
+    column-gap: 0px;
+  }
+  div.food {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -35px;
+    margin-left: 101px;
+  }
+  div.local {
+    display: flex;
+    flex-direction: column;
+    margin-left: 101px;
+  }
+  div.green {
+    color: #414141;
+  }
 }
