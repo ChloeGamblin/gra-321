@@ -275,7 +275,7 @@ div.green {
 
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1000px){
   .container {
     display: inline-grid;
   }
