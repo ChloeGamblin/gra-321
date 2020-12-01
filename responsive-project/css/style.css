@@ -461,7 +461,7 @@ div.green {
   }
 
   .logo > img {
-    width: 270px;
+    width: 90%;
     height: auto;
     margin-top: 34px;
     margin-left: -10px;
@@ -469,7 +469,7 @@ div.green {
 
   div.menu {
     grid-area: "menu";
-    font-size: 20px;
+    font-size: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 26px;
@@ -478,8 +478,8 @@ div.green {
 
   div.contact {
     order:1;
-    font-size: 35px;
-    line-height: 60px;
+    font-size: 100%;
+    line-height: 170%;
   }
 
   div .contact a {
@@ -487,8 +487,8 @@ div.green {
   }
   div.menulinks {
     order:2;
-    font-size: 35px;
-    line-height: 60px;
+    font-size: 100%;
+    line-height: 170%;
   }
 
   div.menulinks a {
