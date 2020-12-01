@@ -505,9 +505,10 @@ div.green {
     flex-direction: column;
     flex-wrap: wrap;
     height: 900px;
-    column-gap: 100px;
+    column-gap: 115%;
     margin-bottom: -26px;
     margin-left: 101px;
+    width: 20%;
 
   }
   div.footer {
@@ -523,7 +524,8 @@ div.green {
     flex-wrap: wrap;
     margin-left: 101px;
     height: 500px;
-    column-gap: 100px;
+    column-gap: 122%;
+    width: 20%;
   }
   div.drinkspecialstitle {
     display: flex;
